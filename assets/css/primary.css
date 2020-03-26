@@ -7,6 +7,17 @@ body {
 	line-height: 1.8em;
 	text-align: center;
 	color: black;
+	min-height: 100%;
+}
+
+body {
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 0.82),
+		rgba(0, 0, 0, 0.608)
+	);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
 }
 
 h1 {
@@ -136,6 +147,7 @@ h1 {
 /* email container */
 .contactContainer {
 	margin-bottom: 80px;
+	margin-top: 0;
 }
 
 .contactContainer input,
@@ -148,9 +160,14 @@ textarea {
 	padding: 60px 0;
 }
 
+.section-dark {
+	padding: 0;
+}
+
 /* FOOTER */
 .footer {
 	justify-content: center;
+	background-color: rgba(255, 255, 255, 0);
 }
 
 /* media query for mobile */
