@@ -132,6 +132,7 @@ h1 {
 .tech-intro {
 	color: white;
 	font-size: 80px;
+	line-height: 2em;
 }
 
 .row-container {
@@ -142,10 +143,11 @@ h1 {
 
 .image-circle {
 	display: flex;
-	background-color: rgba(133, 230, 249, 0.504);
+	background-color: rgba(155, 254, 254, 0.614);
 	border-radius: 50%;
 	justify-content: space-around;
-	margin: 35px;
+	flex-direction: column;
+	margin: 0 10px 35px 0;
 }
 
 /* email container */
@@ -178,6 +180,10 @@ textarea {
 	color: whitesmoke;
 }
 
+.icon-text {
+	font-size: 10px;
+}
+
 /* media query for mobile */
 @media only screen and (max-width: 767px) {
 	.web-dev {
@@ -191,5 +197,11 @@ textarea {
 		font-size: 30px;
 		margin-top: 20px;
 		text-transform: uppercase;
+	}
+	.tech-intro {
+		color: white;
+		margin-top: 15px;
+		font-size: 80px;
+		line-height: 1em;
 	}
 }
