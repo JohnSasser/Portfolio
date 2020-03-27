@@ -10,7 +10,7 @@ body {
 	min-height: 100%;
 }
 
-body {
+/* html {
 	background-image: linear-gradient(
 		rgba(255, 255, 255, 0.82),
 		rgba(0, 0, 0, 0.608)
@@ -18,7 +18,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 100%;
-}
+} */
 
 h1 {
 	margin-bottom: 0;
@@ -52,12 +52,14 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 .parallax-img3 {
 	background-image: url(/assets/images/greenland-aurora.jpg);
-	min-height: 70%;
+	min-height: 85%;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 /* first parallax container */
@@ -76,7 +78,6 @@ h1 {
 	display: block;
 	border-radius: 100%;
 	max-width: 65%;
-	box-shadow: 0.8px 0.8px 0px 0px rgba(195, 195, 195, 0.628);
 }
 
 .web-dev {
@@ -118,9 +119,9 @@ h1 {
 /* third parallax container */
 .tech-container {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	color: white;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 .tech-intro {
@@ -128,21 +129,30 @@ h1 {
 	font-size: 80px;
 }
 
-.row-1 .image-circle {
+.row-container {
+	/* display: flex; */
+	flex-wrap: wrap;
+	color: white;
+	font-size: 80px;
+}
+
+.image-circle {
 	display: flex;
-	background-color: rgba(255, 255, 255, 0.19);
+	flex-wrap: wrap;
+	background-color: rgba(133, 230, 249, 0.504);
 	border-radius: 50%;
 	justify-content: space-around;
 	margin: 15px;
 }
 
-.row-2 .image-circle {
+/* .image-circle {
 	display: flex;
+	flex-wrap: wrap;
 	background-color: rgba(0, 0, 0, 0.505);
 	border-radius: 50%;
 	justify-content: space-around;
 	margin: 15px;
-}
+} */
 
 /* email container */
 .contactContainer {
@@ -167,7 +177,11 @@ textarea {
 /* FOOTER */
 .footer {
 	justify-content: center;
-	background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(32, 32, 32, 0.649);
+}
+
+.btn-social-icon {
+	color: whitesmoke;
 }
 
 /* media query for mobile */
