@@ -8,6 +8,7 @@ body {
 	text-align: center;
 	color: black;
 	min-height: 100%;
+	overflow-x: hidden;
 }
 
 html {
@@ -39,7 +40,7 @@ h1 {
 
 /* parallax images */
 .parallax-img1 {
-	background-image: url(/assets/images/skyline-1402050_1920.jpg);
+	background-image: url(../images/skyline-1402050_1920.jpg);
 	/* used the blend-mode to add opacity to parallax images */
 	background-color: rgba(204, 236, 250, 0.582);
 	background-blend-mode: overlay;
@@ -47,7 +48,7 @@ h1 {
 	min-width: 100%;
 }
 .parallax-img2 {
-	background-image: url(/assets/images/moab-road.jpg);
+	background-image: url(../images/moab-road.jpg);
 	background-color: rgba(251, 215, 196, 0.477);
 	background-blend-mode: overlay;
 	min-height: 85%;
@@ -57,10 +58,9 @@ h1 {
 	flex-wrap: wrap;
 }
 .parallax-img3 {
-	background-image: url(/assets/images/greenland-aurora.jpg);
+	background-image: url(../images/greenland-aurora.jpg);
 	min-height: 85%;
 	justify-content: center;
-	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
@@ -143,7 +143,7 @@ h1 {
 
 .image-circle {
 	display: flex;
-	background-color: rgba(155, 254, 254, 0.614);
+	background-color: rgba(255, 255, 255, 0.716);
 	border-radius: 50%;
 	justify-content: space-around;
 	flex-direction: column;
