@@ -92,9 +92,10 @@ h1 {
 /* intro name text */
 .john-sass {
 	display: flex;
-	font-size: 50px;
+	font-size: 85px;
 	margin-top: 20px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	color: rgb(201, 179, 36);
 }
 
 /* second parallax img container */

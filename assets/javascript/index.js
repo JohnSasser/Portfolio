@@ -1,9 +1,12 @@
+// $('.second-row').remove();
+
 $('#period').textillate({
 	// enable looping
+
 	loop: false,
 
 	// sets the minimum display time for each text before it is replaced
-	minDisplayTime: 2000,
+	minDisplayTime: 10000,
 
 	// sets the initial delay before starting the animation
 	// (note that depending on the in effect you may need to manually apply
@@ -41,7 +44,10 @@ $('#period').textillate({
 		}
 	},
 	out: {
-		effect: 'bounceOutLeft'
+		effect: 'bounceOutLeft',
+		callback: function() {
+			$('.first-row').remove();
+		}
 	}
 });
 
@@ -53,7 +59,7 @@ $('#j').textillate({
 
 	in: {
 		effect: 'bounceInRight',
-		delayScale: 1.5,
+		// delayScale: 1.5,
 		// set the delay between each character
 		delay: 500,
 		// set to true to animate all the characters at the same time
@@ -69,7 +75,10 @@ $('#j').textillate({
 		}
 	},
 	out: {
-		effect: 'bounceOutUp'
+		effect: 'bounceOutUp',
+		callback: function() {
+			$('#s').remove();
+		}
 	},
 	callback: function() {},
 	type: 'char'
@@ -83,7 +92,7 @@ $('#s').textillate({
 
 	in: {
 		effect: 'bounceInRight',
-		delayScale: 1,
+		// delayScale: 1,
 		// set the delay between each character
 		delay: 500,
 		// set to true to animate all the characters at the same time
@@ -101,12 +110,17 @@ $('#s').textillate({
 	out: {
 		effect: 'bounceOutDown',
 		// delayScale: 1.5,
-		delay: 200,
+		delay: 500,
 		// sync: false,
 		// shuffle: true,
-		reverse: true
+		reverse: true,
+		callback: function() {
+			$('#s').remove();
+		}
 	},
-	callback: function() {},
+	callback: function() {
+		// $('#s').remove();
+	},
 	type: 'char'
 });
 
@@ -153,9 +167,3 @@ $('#last').textillate({
 		reverse: false
 	}
 });
-
-// function sHide() {
-// 	$('this.id').hide();
-// 	console.log(this);
-// 	// delay here
-// }
