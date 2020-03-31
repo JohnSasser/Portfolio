@@ -1,5 +1,3 @@
-// $('.second-row').remove();
-
 $('#period').textillate({
 	// enable looping
 
@@ -11,7 +9,7 @@ $('#period').textillate({
 	// sets the initial delay before starting the animation
 	// (note that depending on the in effect you may need to manually apply
 	// visibility: hidden to the element before running this plugin)
-	initialDelay: 0,
+	initialDelay: 00,
 
 	// set whether or not to automatically start animating
 	autoStart: true,
@@ -19,7 +17,7 @@ $('#period').textillate({
 	// in animation settings
 	in: {
 		// set the effect name
-		effect: 'fadeInUpBig',
+		effect: 'fadeInDownBig',
 
 		// set the delay factor applied to each consecutive character
 		delayScale: 1.5,
@@ -126,7 +124,7 @@ $('#s').textillate({
 
 $('#first').textillate({
 	loop: false,
-	minDisplayTime: 2000,
+	minDisplayTime: 4000,
 	initialDelay: 1000,
 	autoStart: true,
 
@@ -134,7 +132,7 @@ $('#first').textillate({
 		effect: 'bounceInDown',
 		delayScale: 1.5,
 		// set the delay between each character
-		delay: 100,
+		delay: 120,
 		// set to true to animate all the characters at the same time
 		sync: false,
 		// randomize the character sequence
@@ -148,7 +146,7 @@ $('#first').textillate({
 
 $('#last').textillate({
 	loop: false,
-	minDisplayTime: 2000,
+	minDisplayTime: 4000,
 	initialDelay: 1000,
 	autoStart: true,
 
@@ -156,7 +154,7 @@ $('#last').textillate({
 		effect: 'bounceInDown',
 		delayScale: 1.5,
 		// set the delay between each character
-		delay: 100,
+		delay: 120,
 		// set to true to animate all the characters at the same time
 		sync: false,
 		// randomize the character sequence

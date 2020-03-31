@@ -80,22 +80,37 @@ h1 {
 #head-shot {
 	display: block;
 	border-radius: 100%;
-	max-width: 65%;
+	max-width: 50%;
 }
 
 /* intro text */
 .web-dev {
-	display: flex;
-	font-size: 72px;
+	font-size: 60px;
 	text-transform: uppercase;
+}
+
+.first-row,
+.second-row {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.text-div {
+	background-color: rgba(32, 32, 32, 0.649);
+	height: 250px;
+	padding-top: 35px;
 }
 
 /* intro name text */
 .john-sass {
-	display: flex;
-	font-size: 85px;
+	width: 100vw;
+	position: relative;
+	font-size: 65px;
 	margin-top: 20px;
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
 	color: rgb(201, 179, 36);
 }
 
@@ -110,7 +125,6 @@ h1 {
 .para2-text {
 	font-size: 100px;
 	line-height: 2em;
-	/* text-shadow: 1.5px 1.5px rgb(234, 233, 233); */
 }
 
 /* adding margin to all the project links in the second parallax */
@@ -199,7 +213,6 @@ textarea {
 	}
 
 	.john-sass {
-		display: flex;
 		font-size: 30px;
 		margin-top: 20px;
 		text-transform: uppercase;
