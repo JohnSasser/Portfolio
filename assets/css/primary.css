@@ -89,6 +89,7 @@ h1 {
 	font-size: 72px;
 	text-transform: uppercase;
 }
+
 /* intro name text */
 .john-sass {
 	display: flex;
@@ -107,7 +108,9 @@ h1 {
 
 /* 2nd parallax intro text */
 .para2-text {
-	text-shadow: 1.5px 1.5px rgb(234, 233, 233);
+	font-size: 100px;
+	line-height: 2em;
+	/* text-shadow: 1.5px 1.5px rgb(234, 233, 233); */
 }
 
 /* adding margin to all the project links in the second parallax */
@@ -130,12 +133,14 @@ h1 {
 	justify-content: space-around;
 }
 
+/* 3rd parallax intro text */
 .tech-intro {
 	color: white;
 	font-size: 80px;
 	line-height: 2em;
 }
 
+/*  */
 .row-container {
 	flex-wrap: wrap;
 	color: white;
