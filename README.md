@@ -4,7 +4,7 @@ This site is used to display some of the technologies that i have practiced with
 
 _Visit the live site_ [Portfolio](https://johnsasser.github.io/Portfolio/)
 
-![photo of project](assets/images/project.png)
+![photo of project](assets/images/project-min.png)
 
 # About
 

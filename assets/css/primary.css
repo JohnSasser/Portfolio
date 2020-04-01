@@ -40,7 +40,7 @@ h1 {
 
 /* parallax images */
 .parallax-img1 {
-	background-image: url(../images/skyline-1402050_1920.jpg);
+	background-image: url(../images/skyline-1402050_1920-min.jpg);
 	/* used the blend-mode to add opacity to parallax images */
 	background-color: rgba(204, 236, 250, 0.582);
 	background-blend-mode: overlay;
@@ -48,7 +48,7 @@ h1 {
 	min-width: 100%;
 }
 .parallax-img2 {
-	background-image: url(../images/moab-road.jpg);
+	background-image: url(../images/moab-road-min.jpg);
 	background-color: rgba(251, 215, 196, 0.477);
 	background-blend-mode: overlay;
 	min-height: 85%;
@@ -58,7 +58,7 @@ h1 {
 	flex-wrap: wrap;
 }
 .parallax-img3 {
-	background-image: url(../images/greenland-aurora.jpg);
+	background-image: url(../images/greenland-aurora-min.jpg);
 	min-height: 85%;
 	justify-content: center;
 	flex-direction: column;
