@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -114,7 +115,7 @@
 
         <div class="tech-container">
 
-            <a href="https://www.mongodb.com/" target="_blank">
+            <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
                 <div class="image-circle img-fluid">
                     <img class="portfolio-img" src="./assets/images/vectors/mongodb-green.svg"
                         alt="Property scoring app" />
@@ -122,7 +123,7 @@
                 </div>
             </a>
 
-            <a href="https://expressjs.com/" target="_blank">
+            <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
                 <div class="image-circle img-fluid">
                     <img class="portfolio-img" src="./assets/images/vectors/express-js.svg"
                         alt="Property scoring app" />
@@ -130,14 +131,14 @@
                 </div>
             </a>
 
-            <a href="https://reactjs.org/" target="_blank">
+            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
                 <div class="image-circle img-fluid">
                     <img class="portfolio-img" src="./assets/images/vectors/react.svg" alt="Property scoring app" />
                     <div class="imgText"></div>
                 </div>
             </a>
 
-            <a href="https://nodejs.org/en/about/" target="_blank">
+            <a href="https://nodejs.org/en/about/" target="_blank" rel="noopener noreferrer">
                 <div class="image-circle img-fluid">
                     <img class="portfolio-img" src="./assets/images/vectors/nodejs-green.svg"
                         alt="Property scoring app" />
@@ -154,7 +155,7 @@
     <div class="container contactContainer">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="card-body cardContainer">
+                <div class="card-body cardContainer" id="email-container">
                     <h2 class="card-title">SHOOT ME AN EMAIL</h2>
 
                     <hr size="3" color="#000" width="100%" />
@@ -162,17 +163,16 @@
                     <form action="https://formspree.io/xbjojbro" method="POST">
                         <div class="form-group">
                             <label for="exampleFormControlInput1"></label>
-                            <input type="text" name="name" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Your Name" />
+                            <input type="text" for="contact" name="name" class="form-control" placeholder="Your Name" />
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1"></label>
-                            <input type="email" name="replyto" class="form-control" id="exampleFormControlInput1"
+                            <input type="email" for="contact" name="replyto" class="form-control"
                                 placeholder="Your email@example.com" />
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="12"
+                            <textarea class="form-control" for="contact" name="message" rows="12"
                                 placeholder="Message"></textarea>
                             <br>
 
@@ -191,17 +191,23 @@
         <nav class="navbar justify-content-center">
             <div class="nav-item">
                 <a class="navbar-brand btn btn-social-icon btn-twitter" href="https://www.github.com/JohnSasser"
-                    target="blank">
+                    target="blank" rel="noopener noreferrer">
                     <i class="fab fa-github fa-lg"></i>
                 </a>
 
                 <a class="navbar-brand btn btn-social-icon btn-twitter"
-                    href="https://www.linkedin.com/in/john-sasser-does-javascript/" target="blank">
+                    href="https://www.linkedin.com/in/john-sasser-does-javascript/" target="blank"
+                    rel="noopener noreferrer">
                     <i class="fab fa-linkedin fa-lg"></i>
                 </a>
 
+                <a class="navbar-brand btn btn-social-icon btn-twitter justify-self-right" href="#email-container"
+                    download="web-developer-resume.docx" rel="noopener noreferrer">
+                    <i class="fas fa-address-card fa-lg"> Contact </i>
+                </a>
+
                 <a class="navbar-brand btn btn-social-icon btn-twitter" href="./web-developer-resume.docx"
-                    download="web-developer-resume.docx">
+                    download="web-developer-resume.docx" rel="noopener noreferrer">
                     <i class="fas fa-file-download fa-lg"> Resume </i>
                 </a>
             </div>
