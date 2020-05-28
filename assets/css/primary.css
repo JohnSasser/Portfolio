@@ -13,10 +13,8 @@ body {
 
 html {
 	/* applying a linear color background to html */
-	background-image: linear-gradient(
-		rgba(255, 255, 255, 0.82),
-		rgba(0, 0, 0, 0.608)
-	);
+	background-image: linear-gradient(rgba(255, 255, 255, 0.82),
+			rgba(0, 0, 0, 0.608));
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 100%;
@@ -47,6 +45,7 @@ h1 {
 	min-height: 100%;
 	min-width: 100%;
 }
+
 .parallax-img2 {
 	background-image: url(../images/moab-road-min.jpg);
 	background-color: rgba(251, 215, 196, 0.477);
@@ -57,6 +56,7 @@ h1 {
 	flex-direction: column;
 	flex-wrap: wrap;
 }
+
 .parallax-img3 {
 	background-image: url(../images/greenland-aurora-min.jpg);
 	min-height: 85%;
@@ -65,7 +65,7 @@ h1 {
 	flex-wrap: wrap;
 }
 
-/* first parallax container */
+/* FIRST PARALLAX CONTAINER */
 .img1-container {
 	display: flex;
 	flex-direction: column;
@@ -114,7 +114,7 @@ h1 {
 	color: rgb(201, 179, 36);
 }
 
-/* second parallax img container */
+/* SECOND PARALLAX CONTAINER */
 .projectFlex {
 	display: flex;
 	flex-wrap: wrap;
@@ -128,8 +128,8 @@ h1 {
 }
 
 /* adding margin to all the project links in the second parallax */
-.projectFlex a {
-	margin: 35px;
+.projectFlex {
+	margin-bottom: 35px;
 }
 
 .portfolio-img {
@@ -139,7 +139,21 @@ h1 {
 	display: flex;
 }
 
-/* third parallax container */
+/* handling the portfolio image */
+img {
+	height: 300px;
+	width: 450px;
+	justify-content: space-around;
+	margin: 35px;
+	box-shadow: 0 0 8px rgba(123, 123, 123, 0.872);
+}
+
+button {
+	border: none;
+	box-shadow: 0 0 1px rgba(22, 22, 22, 0.872);
+}
+
+/* THIRD PARALLAX CONTAINER */
 .tech-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -154,7 +168,6 @@ h1 {
 	line-height: 2em;
 }
 
-/*  */
 .row-container {
 	flex-wrap: wrap;
 	color: white;
@@ -170,10 +183,14 @@ h1 {
 	margin: 0 10px 35px 0;
 }
 
-/* email container */
+/* EMAIL CONTAINER */
 .contactContainer {
 	margin-bottom: 80px;
 	margin-top: 0;
+}
+
+.email-header {
+	line-height: 2em;
 }
 
 .contactContainer input,
@@ -181,7 +198,7 @@ textarea {
 	text-align: center;
 }
 
-/* sections between the parallax images */
+/* SECTIONS BETWEEN PARALLAX IMAGES */
 .section {
 	padding: 60px 0;
 }
@@ -204,7 +221,7 @@ textarea {
 	font-size: 10px;
 }
 
-/* media query for mobile */
+/* MEDIA QUERY FOR MOBILE FIRST DEV */
 @media only screen and (max-width: 767px) {
 	.web-dev {
 		display: flex;
@@ -217,10 +234,29 @@ textarea {
 		margin-top: 20px;
 		text-transform: uppercase;
 	}
+
 	.tech-intro {
 		color: white;
 		margin-top: 15px;
 		font-size: 80px;
 		line-height: 1em;
+		font-size: 40px
+	}
+
+	.email-header {
+		font-size: 25px;
+	}
+
+	img {
+		height: 35vh;
+		width: 85vw;
+	}
+
+	#email-container {
+		margin-bottom: 80px;
+	}
+
+	.text-div {
+		margin-bottom: 140px;
 	}
 }
