@@ -132,6 +132,9 @@ h1 {
 	margin-bottom: 35px;
 }
 
+.project-link {
+	margin-bottom: 50px;
+}
 /* handling the portfolio image */
 .portfolio-img {
 	height: 300px;

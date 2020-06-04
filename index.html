@@ -1,367 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>John Sasser's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
     <!-- css animate -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
     <!-- local css -->
     <link rel="stylesheet" href="./assets/css/primary.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- 1st PARALLAX -->
 
     <div id="img1" class="parallax-img1">
+      <div class="container img1-container">
+        <img
+          id="head-shot"
+          class="img-fluid"
+          src="./assets/images/john-headshots-5.jpg"
+          alt="head-shot"
+        />
+        <br /><br />
+        <div class="text-div">
+          <h1 class="intro-text web-dev text-center">Web Developer</h1>
 
-        <div class="container img1-container">
-
-            <img id="head-shot" class="img-fluid" src="./assets/images/john-headshots-5.jpg" alt="head-shot">
-            <br><br>
-            <div class="text-div">
-
-                <h1 class="intro-text web-dev text-center">Web Developer</h1>
-
-                <h4 class="intro-text john-sass text-center">
-                    <div class="first-row">
-                        <span id="period">. </span>
-                        <span id="j">J </span>
-                        <span id="s">S </span>
-                    </div>
-
-                    <div class="second-row">
-                        <span id="first">John</span>
-                        <span id="last"> Sasser</span>
-                    </div>
-                </h4>
-
+          <h4 class="intro-text john-sass text-center">
+            <div class="first-row">
+              <span id="period">. </span>
+              <span id="j">J </span>
+              <span id="s">S </span>
             </div>
 
+            <div class="second-row">
+              <span id="first">John</span>
+              <span id="last"> Sasser</span>
+            </div>
+          </h4>
         </div>
-
+      </div>
     </div>
 
     <section class="section section-light container">
-        <br>
-        <p class="lead">Georgia Institute of Technology Full Stack web-application and
-            design development certificate holder. Leveraging a background in sales and account management, to connect
-            with and provide elegant, user friendly and maintainable solutions. I am a MERN stack developer with an
-            eagerness to learn new technologies, and a love for all things code.
-        </p>
-
+      <br />
+      <p class="lead">
+        Georgia Institute of Technology Full Stack web-application and design
+        development certificate holder. Leveraging a background in sales and
+        account management, to connect with and provide elegant, user friendly
+        and maintainable solutions. I am a MERN stack developer with an
+        eagerness to learn new technologies, and a love for all things code.
+      </p>
     </section>
 
     <!-- 2nd PARALLAX -->
 
     <div class="parallax-img2">
+      <h2 class="para2-text">Projects</h2>
 
-        <h2 class="para2-text">Projects</h2>
-
-        <div class="projectFlex">
-                
-            <!-- FILE FISH -->
-            <div>
-                <a
-                  href="https://file-fish.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="image-box">
-                    <img
-                      class="portfolio-img"
-                      src="assets/images/portfolio-images/filefish-min.png"
-                      alt="File Fish"
-                    />
-                  </div>
-                </a>
-                
-                <br />
-                
-                <a
-                  href="https://github.com/JohnSasser/fileFish"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg portfolio-btn"
-                  >
-                    File Fish Repository
-                  </button>
-                </a>
+      <div class="projectFlex">
+        <!-- FILE FISH -->
+        <div class="project-link">
+          <a
+            href="https://file-fish.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="image-box">
+              <img
+                class="portfolio-img"
+                src="assets/images/portfolio-images/filefish-min.png"
+                alt="File Fish"
+              />
             </div>
+          </a>
 
-            <!-- CHIPPER -->
-            <div>
-                <a
-                  href="https://chipper2.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="image-box">
-                    <img
-                      class="portfolio-img"
-                      src="assets/images/portfolio-images/chipper-min.png"
-                      alt="Chippper"
-                    />
-                  </div>
-                </a>
-                
-                <br />
-                
-                <a
-                  href="https://github.com/JohnSasser/chipper"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg portfolio-btn"
-                  >
-                    Chipper Repository
-                  </button>
-                </a>
-            </div>
+          <br />
 
-            <!-- WORKOUT TRACKER -->
-            <div>
-                <a
-                    href="https://workout-tracker-222000.herokuapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <div class="image-box">
-                    <img
-                        class="portfolio-img"
-                        src="./assets/images/portfolio-images/training-training-min.png"
-                        alt="Property Scoring App"
-                    />
-                    </div>
-                </a>
-                
-                <br />
-                
-                <a
-                    href="https://github.com/JohnSasser/17-Training-Tracker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <button
-                    type="button"
-                    class="btn btn-primary btn-lg portfolio-btn"
-                    >
-                    Training Tracker Repository
-                    </button>
-                </a>
-            </div>
-                
-            <!-- NOTE TAKER -->
-            <div>
-                <a
-                  href="https://obscure-garden-90006.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="image-box">
-                    <img
-                      class="portfolio-img"
-                      src="./assets/images/portfolio-images/note-taker-min.png"
-                      alt="Day-Planner"
-                    />
-                  </div>
-                </a>
-                
-                <br />
-                
-                <a
-                  href="https://github.com/JohnSasser/11-Note-Taker"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg portfolio-btn"
-                  >
-                    Note Taker Repository
-                  </button>
-                </a>
-            </div>
-
-            <!-- WEATHER DASHBOARD -->
-            <div>
-                <a
-                  href="https://johnsasser.github.io/06-WeatherDashboard/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="image-box">
-                    <img
-                      class="portfolio-img"
-                      src="./assets/images/portfolio-images/weather-dashboard-min.png"
-                      alt="Weather Dashboard"
-                    />
-                  </div>
-                </a>
-                
-                <br />
-                
-                <a
-                  href="https://github.com/JohnSasser/06-WeatherDashboard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg portfolio-btn"
-                  >
-                    Weather App Repository
-                  </button>
-                </a>
-            </div>
-
+          <a
+            href="https://github.com/JohnSasser/fileFish"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn-lg portfolio-btn">
+              File Fish Repository
+            </button>
+          </a>
         </div>
+
+        <!-- CHIPPER -->
+        <div class="project-link">
+          <a
+            href="https://chipper2.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="image-box">
+              <img
+                class="portfolio-img"
+                src="assets/images/portfolio-images/chipper-min.png"
+                alt="Chippper"
+              />
+            </div>
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/JohnSasser/chipper"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn-lg portfolio-btn">
+              Chipper Repository
+            </button>
+          </a>
+        </div>
+
+        <!-- WORKOUT TRACKER -->
+        <div class="project-link">
+          <a
+            href="https://workout-tracker-222000.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="image-box">
+              <img
+                class="portfolio-img"
+                src="./assets/images/portfolio-images/training-training-min.png"
+                alt="Property Scoring App"
+              />
+            </div>
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/JohnSasser/17-Training-Tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn-lg portfolio-btn">
+              Training Tracker Repository
+            </button>
+          </a>
+        </div>
+
+        <!-- NOTE TAKER -->
+        <div class="project-link">
+          <a
+            href="https://obscure-garden-90006.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="image-box">
+              <img
+                class="portfolio-img"
+                src="./assets/images/portfolio-images/note-taker-min.png"
+                alt="Day-Planner"
+              />
+            </div>
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/JohnSasser/11-Note-Taker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn-lg portfolio-btn">
+              Note Taker Repository
+            </button>
+          </a>
+        </div>
+
+        <!-- WEATHER DASHBOARD -->
+        <div class="project-link">
+          <a
+            href="https://johnsasser.github.io/06-WeatherDashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="image-box">
+              <img
+                class="portfolio-img"
+                src="./assets/images/portfolio-images/weather-dashboard-min.png"
+                alt="Weather Dashboard"
+              />
+            </div>
+          </a>
+
+          <br />
+
+          <a
+            href="https://github.com/JohnSasser/06-WeatherDashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" class="btn btn-primary btn-lg portfolio-btn">
+              Weather App Repository
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <section class="section section-dark">
-        <br><br>
-    </section>
+    <section class="section section-dark"><br /><br /></section>
 
     <!-- 3rd PARALLAX -->
 
     <div class="parallax-img3">
-        <div class="container row-container">
-            <h2 class="tech-intro">MERN STACK DEVELOPER</h2>
-        </div>
+      <div class="container row-container">
+        <h2 class="tech-intro">MERN STACK DEVELOPER</h2>
+      </div>
 
-        <div class="tech-container">
+      <div class="tech-container">
+        <a
+          href="https://www.mongodb.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="image-circle img-fluid">
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/mongodb-green.svg"
+              alt="Property scoring app"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
 
-            <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
-                <div class="image-circle img-fluid">
-                    <img class="tech-img" src="./assets/images/vectors/mongodb-green.svg"
-                        alt="Property scoring app" />
-                    <div class="imgText"></div>
-                </div>
-            </a>
+        <a
+          href="https://expressjs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="image-circle img-fluid">
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/express-js.svg"
+              alt="Property scoring app"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
 
-            <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
-                <div class="image-circle img-fluid">
-                    <img class="tech-img" src="./assets/images/vectors/express-js.svg"
-                        alt="Property scoring app" />
-                    <div class="imgText"></div>
-                </div>
-            </a>
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="image-circle img-fluid">
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/react.svg"
+              alt="Property scoring app"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
 
-            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
-                <div class="image-circle img-fluid">
-                    <img class="tech-img" src="./assets/images/vectors/react.svg" alt="Property scoring app" />
-                    <div class="imgText"></div>
-                </div>
-            </a>
-
-            <a href="https://nodejs.org/en/about/" target="_blank" rel="noopener noreferrer">
-                <div class="image-circle img-fluid">
-                    <img class="tech-img" src="./assets/images/vectors/nodejs-green.svg"
-                        alt="Property scoring app" />
-                    <div class="imgText"></div>
-                </div>
-            </a>
-
-        </div>
+        <a
+          href="https://nodejs.org/en/about/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="image-circle img-fluid">
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/nodejs-green.svg"
+              alt="Property scoring app"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+      </div>
     </div>
 
     <!-- EMAIL SECTION -->
 
     <section class="section section-dark"></section>
     <div class="container contactContainer">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="card-body cardContainer" id="email-container">
-                    <h2 class="card-title email-header">SHOOT ME AN EMAIL @ 
-                        
-                        cw.john.sasser@gmail.com
-                        
-                    </h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="card-body cardContainer" id="email-container">
+            <h2 class="card-title email-header">
+              SHOOT ME AN EMAIL @ cw.john.sasser@gmail.com
+            </h2>
 
-                    <hr size="3" color="#000" width="100%" />
+            <hr size="3" color="#000" width="100%" />
 
-                    <form action="https://formspree.io/xbjojbro" method="POST">
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1"></label>
-                            <input type="text" for="contact" name="name" class="form-control" placeholder="Your Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1"></label>
-                            <input type="email" for="contact" name="replyto" class="form-control"
-                                placeholder="Your email@example.com" />
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" for="contact" name="message" rows="12"
-                                placeholder="Message"></textarea>
-                            <br>
+            <form action="https://formspree.io/xbjojbro" method="POST">
+              <div class="form-group">
+                <label for="exampleFormControlInput1"></label>
+                <input
+                  type="text"
+                  for="contact"
+                  name="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1"></label>
+                <input
+                  type="email"
+                  for="contact"
+                  name="replyto"
+                  class="form-control"
+                  placeholder="Your email@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea
+                  class="form-control"
+                  for="contact"
+                  name="message"
+                  rows="12"
+                  placeholder="Message"
+                ></textarea>
+                <br />
 
-                            <input class="btn btn-dark btn-lg btn-block submitButton" type="submit" value="Send" />
-                        </div>
-                    </form>
-
-                </div>
-            </div>
+                <input
+                  class="btn btn-dark btn-lg btn-block submitButton"
+                  type="submit"
+                  value="Send"
+                />
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- STICKY FOOTER -->
 
     <div class="pos-f-t fixed-bottom footer">
-        <nav class="navbar justify-content-center">
-            <div class="nav-item">
-                <a class="navbar-brand btn btn-social-icon btn-twitter" href="https://www.github.com/JohnSasser"
-                    target="blank" rel="noopener noreferrer">
-                    <i class="fab fa-github fa-lg"></i>
-                </a>
+      <nav class="navbar justify-content-center">
+        <div class="nav-item">
+          <a
+            class="navbar-brand btn btn-social-icon btn-twitter"
+            href="https://www.github.com/JohnSasser"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github fa-lg"></i>
+          </a>
 
-                <a class="navbar-brand btn btn-social-icon btn-twitter"
-                    href="https://www.linkedin.com/in/john-sasser-does-javascript/" target="blank"
-                    rel="noopener noreferrer">
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </a>
+          <a
+            class="navbar-brand btn btn-social-icon btn-twitter"
+            href="https://www.linkedin.com/in/john-sasser-does-javascript/"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
 
-                <a class="navbar-brand btn btn-social-icon btn-twitter justify-self-right" href="#email-container"
-                    rel="noopener noreferrer">
-                    <i class="fas fa-address-card fa-lg"> Contact </i>
-                </a>
+          <a
+            class="navbar-brand btn btn-social-icon btn-twitter justify-self-right"
+            href="#email-container"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-address-card fa-lg"> Contact </i>
+          </a>
 
-                <a class="navbar-brand btn btn-social-icon btn-twitter" href="./web-developer-resume.docx"
-                    download="web-developer-resume.docx" rel="noopener noreferrer">
-                    <i class="fas fa-file-download fa-lg"> Resume </i>
-                </a>
-            </div>
-
-        </nav>
+          <a
+            class="navbar-brand btn btn-social-icon btn-twitter"
+            href="./web-developer-resume.docx"
+            download="web-developer-resume.docx"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-file-download fa-lg"> Resume </i>
+          </a>
+        </div>
+      </nav>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/5f4b0fb1a5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5f4b0fb1a5.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="assets/javascript/index.js"></script>
-
-
-</body>
-
+  </body>
 </html>
