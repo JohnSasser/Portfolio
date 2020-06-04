@@ -132,21 +132,13 @@ h1 {
 	margin-bottom: 35px;
 }
 
+/* handling the portfolio image */
 .portfolio-img {
 	height: 300px;
 	width: 450px;
 	opacity: 0.9;
 	display: flex;
 	box-shadow: 0 0 8px rgba(123, 123, 123, 0.872);
-}
-
-/* handling the portfolio image */
-.tech-img {
-	opacity: .9;
-	height: 250px;
-	width: 250px;
-	justify-content: space-around;
-	margin: 35px;
 }
 
 button {
@@ -175,6 +167,7 @@ button {
 	font-size: 80px;
 }
 
+/* tech-img parent css */
 .image-circle {
 	display: flex;
 	background-color: rgba(255, 255, 255, 0.716);
@@ -182,6 +175,15 @@ button {
 	justify-content: space-around;
 	flex-direction: column;
 	margin: 0 10px 35px 0;
+}
+
+/* mern stack image links */
+.tech-img {
+	opacity: .9;
+	height: 250px;
+	width: 250px;
+	justify-content: space-around;
+	margin: 35px;
 }
 
 /* EMAIL CONTAINER */
