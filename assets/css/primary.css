@@ -133,19 +133,20 @@ h1 {
 }
 
 .portfolio-img {
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 450px;
 	opacity: 0.9;
 	display: flex;
+	box-shadow: 0 0 8px rgba(123, 123, 123, 0.872);
 }
 
 /* handling the portfolio image */
-img {
-	height: 300px;
-	width: 450px;
+.tech-img {
+	opacity: .9;
+	height: 250px;
+	width: 250px;
 	justify-content: space-around;
 	margin: 35px;
-	box-shadow: 0 0 8px rgba(123, 123, 123, 0.872);
 }
 
 button {
