@@ -135,6 +135,7 @@ h1 {
 .project-link {
 	margin-bottom: 50px;
 }
+
 /* handling the portfolio image */
 .portfolio-img {
 	height: 300px;
@@ -246,16 +247,20 @@ textarea {
 		margin-top: 15px;
 		font-size: 80px;
 		line-height: 1em;
-		font-size: 40px
+		font-size: 40px;
+	}
+
+	.projects-header {
+		margin-top: 15px;
+		font-size: 30px;
+	}
+
+	.portfolio-img {
+		width: 80vw
 	}
 
 	.email-header {
 		font-size: 25px;
-	}
-
-	img {
-		height: 35vh;
-		width: 85vw;
 	}
 
 	#email-container {
@@ -264,5 +269,8 @@ textarea {
 
 	.text-div {
 		margin-bottom: 140px;
+		margin: 0 auto;
+		width: 100vw;
+		background: none;
 	}
 }
