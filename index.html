@@ -69,7 +69,7 @@
     <!-- 2nd PARALLAX -->
 
     <div class="parallax-img2">
-      <h2 class="para2-text">Projects</h2>
+      <h2 class="projects-header">Projects</h2>
 
       <div class="projectFlex">
         <!-- FILE FISH -->
@@ -77,9 +77,17 @@
           <a
             href="https://file-fish.herokuapp.com/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener no referrer"
           >
-            <div class="image-box">
+            <div
+              class="image-box"
+              title="Description"
+              data-toggle="popover"
+              data-container="body"
+              data-placement="top"
+              data-trigger="hover"
+              data-content="Built to track the water perimeters of aquariums and exhibits, regardless of size."
+            >
               <img
                 class="portfolio-img"
                 src="assets/images/portfolio-images/filefish-min.png"
@@ -108,7 +116,15 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="image-box">
+            <div
+              class="image-box"
+              title="Description"
+              data-toggle="popover"
+              data-container="body"
+              data-placement="top"
+              data-trigger="hover"
+              data-content="Designed and build to make lost-pet reunification easier, and eliminate unnecessary stressors on veterinary practices and humane societies."
+            >
               <img
                 class="portfolio-img"
                 src="assets/images/portfolio-images/chipper-min.png"
@@ -137,7 +153,15 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="image-box">
+            <div
+              class="image-box"
+              title="Description"
+              data-toggle="popover"
+              data-container="body"
+              data-placement="top"
+              data-trigger="hover"
+              data-content="A simple exercise/training tracker to help stay on schedule with your workout progressions for your next triathlon, race or just weekly exercise."
+            >
               <img
                 class="portfolio-img"
                 src="./assets/images/portfolio-images/training-training-min.png"
@@ -166,7 +190,15 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="image-box">
+            <div
+              class="image-box"
+              title="Description"
+              data-toggle="popover"
+              data-container="body"
+              data-placement="top"
+              data-trigger="hover"
+              data-content="A note taking app, because every developer needs a note taking app!"
+            >
               <img
                 class="portfolio-img"
                 src="./assets/images/portfolio-images/note-taker-min.png"
@@ -195,7 +227,15 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div class="image-box">
+            <div
+              class="image-box"
+              title="Description"
+              data-toggle="popover"
+              data-container="body"
+              data-placement="top"
+              data-trigger="hover"
+              data-content="A simple, current and future weather app using open-weather-api."
+            >
               <img
                 class="portfolio-img"
                 src="./assets/images/portfolio-images/weather-dashboard-min.png"
@@ -397,6 +437,16 @@
       crossorigin="anonymous"
     ></script>
     <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/5f4b0fb1a5.js"
       crossorigin="anonymous"
     ></script>
@@ -407,6 +457,8 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="assets/javascript/animation.js"></script>
 
     <script src="assets/javascript/index.js"></script>
   </body>
