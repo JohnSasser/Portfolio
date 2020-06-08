@@ -127,7 +127,6 @@ h1 {
 	line-height: 2em;
 }
 
-/* adding margin to all the project links in the second parallax */
 .projectFlex {
 	margin-bottom: 35px;
 }
@@ -228,7 +227,7 @@ textarea {
 	font-size: 10px;
 }
 
-/* MEDIA QUERY FOR MOBILE FIRST DEV */
+/* MEDIA QUERY FOR MOBILE */
 @media only screen and (max-width: 767px) {
 	.web-dev {
 		display: flex;
@@ -275,13 +274,14 @@ textarea {
 	}
 }
 
+/* screens over 2474px */
 @media only screen and (min-width: 2474px) {
 	.project-link {
 		margin: 0 100px 0 100px;
 	}
 
 	.project-link {
-		margin: 100px 100px ;
+		margin: 100px 100px;
 	}
 
 	.portfolio-img {
