@@ -141,7 +141,7 @@ h1 {
 	width: 450px;
 	opacity: 0.9;
 	display: flex;
-	box-shadow: 0 0 8px rgba(123, 123, 123, 0.872);
+	box-shadow: 10px 10px 20px rgba(70, 103, 119, 0.872);
 }
 
 button {
