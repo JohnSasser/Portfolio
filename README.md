@@ -21,12 +21,6 @@ _Visit the live site_ [Portfolio](https://johnsasser.github.io/Portfolio/)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [formspree](https://formspree.io/)
 
-Technologies used in the projects:
-
-- [node](https://nodejs.org/en/)
-- [express](https://expressjs.com/)
-- [sequelize](https://sequelize.org/)
-- [handlebars](https://handlebarsjs.com/)
 
 # Banter
 
