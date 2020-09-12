@@ -135,6 +135,10 @@ h1 {
 	margin-bottom: 50px;
 }
 
+.image-box :hover {
+	opacity: 1;
+}
+
 /* handling the portfolio image */
 .portfolio-img {
 	height: 300px;
