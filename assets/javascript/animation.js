@@ -1,4 +1,6 @@
-$("#period").textillate({
+// animations for the title text (name and initials)
+
+$('#period').textillate({
   // enable looping
   loop: false,
   // sets the minimum display time for each text before it is replaced
@@ -12,7 +14,7 @@ $("#period").textillate({
   // in animation settings
   in: {
     // set the effect name
-    effect: "fadeInDownBig",
+    effect: 'fadeInDownBig',
     // set the delay factor applied to each consecutive character
     delayScale: 1.5,
     // set the delay between each character
@@ -27,23 +29,23 @@ $("#period").textillate({
     reverse: false,
     // callback that executes once the animation has finished
     callback: function () {
-      $("#period").textillate("out");
+      $('#period').textillate('out');
     },
   },
   out: {
-    effect: "bounceOutLeft",
+    effect: 'bounceOutLeft',
     callback: function () {
-      $(".first-row").remove();
+      $('.first-row').remove();
     },
   },
 });
 
-$("#j").textillate({
+$('#j').textillate({
   loop: false,
   minDisplayTime: 2000,
   initialDelay: 00,
   in: {
-    effect: "bounceInRight",
+    effect: 'bounceInRight',
     // delayScale: 1.5,
     // set the delay between each character
     delay: 500,
@@ -56,27 +58,27 @@ $("#j").textillate({
     // (note that reverse doesn't make sense with sync = true)
     reverse: false,
     callback: function () {
-      $("#j").textillate("out");
+      $('#j').textillate('out');
     },
   },
   out: {
-    effect: "bounceOutUp",
+    effect: 'bounceOutUp',
     callback: function () {
-      $("#s").remove();
+      $('#s').remove();
     },
   },
   callback: function () {},
-  type: "char",
+  type: 'char',
 });
 
-$("#s").textillate({
+$('#s').textillate({
   loop: false,
   minDisplayTime: 2000,
   initialDelay: 00,
   autoStart: true,
 
   in: {
-    effect: "bounceInRight",
+    effect: 'bounceInRight',
     // delayScale: 1,
     // set the delay between each character
     delay: 500,
@@ -89,34 +91,34 @@ $("#s").textillate({
     // (note that reverse doesn't make sense with sync = true)
     reverse: false,
     callback: function () {
-      $("#s").textillate("out");
+      $('#s').textillate('out');
     },
   },
   out: {
-    effect: "bounceOutDown",
+    effect: 'bounceOutDown',
     // delayScale: 1.5,
     delay: 500,
     // sync: false,
     // shuffle: true,
     reverse: true,
     callback: function () {
-      $("#s").remove();
+      $('#s').remove();
     },
   },
   callback: function () {
     // $('#s').remove();
   },
-  type: "char",
+  type: 'char',
 });
 
-$("#first").textillate({
+$('#first').textillate({
   loop: false,
   minDisplayTime: 4000,
   initialDelay: 1000,
   autoStart: true,
 
   in: {
-    effect: "bounceInDown",
+    effect: 'bounceInDown',
     delayScale: 1.5,
     // set the delay between each character
     delay: 120,
@@ -131,14 +133,14 @@ $("#first").textillate({
   },
 });
 
-$("#last").textillate({
+$('#last').textillate({
   loop: false,
   minDisplayTime: 4000,
   initialDelay: 1000,
   autoStart: true,
 
   in: {
-    effect: "bounceInDown",
+    effect: 'bounceInDown',
     delayScale: 1.5,
     // set the delay between each character
     delay: 120,
@@ -152,3 +154,5 @@ $("#last").textillate({
     reverse: false,
   },
 });
+
+
