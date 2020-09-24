@@ -17,6 +17,7 @@ _Visit the live site_ [Portfolio](https://johnsasser.github.io/Portfolio/)
 - HTML5
 - CSS3
 
+- [jQuery](https://jquery.com/)
 - [textillate](https://github.com/jschr/textillate)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [formspree](https://formspree.io/)
