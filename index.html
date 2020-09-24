@@ -46,6 +46,7 @@
         />
         <br /><br />
         <div class="text-div">
+          <!-- <div class="col-4"> -->
           <h1 class="intro-text web-dev text-center">Web Developer</h1>
 
           <h4 class="intro-text john-sass text-center">
@@ -60,6 +61,29 @@
               <span id="last"> Sasser</span>
             </div>
           </h4>
+          <!-- scrollTo buttons -->
+          <div class="arrows">
+            <div class="col-4 technologies-arrow">
+              <button
+                id="tech-arrow"
+                class="navbar-brand btn btn-social-icon btn-twitter"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-arrow-circle-down fa-lg"></i> Technologies
+              </button>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 projects-arrow">
+              <button
+                id="project-arrow"
+                class="navbar-brand btn btn-social-icon btn-twitter"
+                href="#project-container"
+                rel="noopener noreferrer"
+              >
+                Projects/Apps <i class="fas fa-arrow-circle-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -77,7 +101,7 @@
 
     <!-- 2nd PARALLAX -->
 
-    <div class="parallax-img2">
+    <div class="parallax-img2" id="project-container">
       <h2 class="projects-header para2-text">Projects</h2>
 
       <div class="projectFlex">
@@ -273,66 +297,396 @@
     <!-- 3rd PARALLAX -->
 
     <div class="parallax-img3">
-      <div class="container row-container">
-        <h2 class="tech-intro">MERN STACK DEVELOPER</h2>
+      <div class="container row-container" id="tech-container">
+        <h2 class="tech-title">TECHNOLOGIES</h2>
       </div>
-
+      <div class="row-container">
+        <h4 class="secondary-title">FONT END</h4>
+      </div>
       <div class="tech-container">
-        <a
-          href="https://www.mongodb.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div class="image-circle img-fluid">
+        <!-- HTML -->
+        <a href="https://html.com/" target="_blank" rel="noopener noreferrer">
+          <div
+            class="image-circle img-fluid"
+            title="HTML"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser."
+          >
             <img
               class="tech-img"
-              src="./assets/images/vectors/mongodb-green.svg"
-              alt="Property scoring app"
+              src="./assets/images/vectors/html5.svg"
+              alt="MongoDB Link"
             />
             <div class="imgText"></div>
           </div>
         </a>
 
+        <!-- CSS3 -->
         <a
-          href="https://expressjs.com/"
+          href="https://css-tricks.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="image-circle img-fluid">
+          <div
+            class="image-circle img-fluid"
+            title="CSS3"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML."
+          >
             <img
               class="tech-img"
-              src="./assets/images/vectors/express-js.svg"
-              alt="Property scoring app"
+              src="./assets/images/vectors/css3.svg"
+              alt="MongoDB Link"
             />
             <div class="imgText"></div>
           </div>
         </a>
 
+        <!-- JAVASCRIPT -->
+        <a
+          href="https://www.javascript.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="JavaScript"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/javascript-js.svg"
+              alt="MongoDB Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- REACT.JS -->
         <a
           href="https://reactjs.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="image-circle img-fluid">
+          <div
+            class="image-circle img-fluid"
+            title="React.js"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="React is an open-source JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+          >
             <img
               class="tech-img"
               src="./assets/images/vectors/react.svg"
-              alt="Property scoring app"
+              alt="React.js Link"
             />
             <div class="imgText"></div>
           </div>
         </a>
 
+        <!-- JQUERY -->
+        <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
+          <div
+            class="image-circle img-fluid"
+            title="jQuery"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/jquery-jq.svg"
+              alt="MongoDB Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- AJAX -->
+        <a
+          href="https://api.jquery.com/jquery.ajax/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="AJAX"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Ajax is a set of web development techniques used so web applications can send and retrieve data from a server asynchronously without interfering with the display and behaviors of the existing page."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/ajax.svg"
+              alt="MongoDB Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="row-container">
+        <h4 class="secondary-title">BACK END</h4>
+      </div>
+
+      <div class="tech-container">
+        <!-- NODE.JS -->
         <a
           href="https://nodejs.org/en/about/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="image-circle img-fluid">
+          <div
+            class="image-circle img-fluid"
+            title="Node.js - Runtime Environment"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser."
+          >
             <img
               class="tech-img"
-              src="./assets/images/vectors/nodejs-green.svg"
-              alt="Property scoring app"
+              src="./assets/images/vectors/nodejs.svg"
+              alt="Node.js Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- EXPRESS.JS -->
+        <a
+          href="https://expressjs.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="Express.js - Runtime Framework"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/express-js.svg"
+              alt="Express.js Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- MONGODB -->
+        <a
+          href="https://www.mongodb.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="MongoDB - Database"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/mongodb.svg"
+              alt="MongoDB Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- MYSQL -->
+        <a
+          href="https://www.mysql.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="MySQL - Database"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="MySQL is an open-source relational database management system. Its name is a combination of 'My', the name of co-founder Michael Widenius's daughter, and 'SQL', the abbreviation for Structured Query Language."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/mysql-official.svg"
+              alt="MySQL Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- API -->
+        <a
+          href="https://apifriends.com/api-management/what-is-an-api/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="Application Program Interface"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="An application programming interface is a computing interface which defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/api.svg"
+              alt="API Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- JSON -->
+        <a
+          href="https://www.json.org/json-en.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="JavaScript Object Notation"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="JavaScript Object Notation is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/json.svg"
+              alt="JSON Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="row-container">
+        <h4 class="secondary-title">TOOLS</h4>
+      </div>
+
+      <div class="tech-container" id="last-tech-container">
+        <!-- GITHUB -->
+        <a
+          href="https://github.com/about/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="Github"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="GitHub, Inc. is an American multinational corporation that provides hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/github-1.svg"
+              alt="Github Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- NPM -->
+        <a
+          href="https://nodejs.org/en/about/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="NPM"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/npm.svg"
+              alt="Node.js Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- POSTMAN -->
+        <a
+          href="https://www.postman.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="Postman"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Postman is a Google Chrome app for interacting with HTTP APIs. It presents you with a friendly GUI for constructing requests and reading responses. It works on the backend, and makes sure that each API is working as intended."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/postman-api.svg"
+              alt="Postman Link"
+            />
+            <div class="imgText"></div>
+          </div>
+        </a>
+
+        <!-- CHROME DEV TOOLS -->
+        <a
+          href="https://developers.google.com/web/tools/chrome-devtools"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            class="image-circle img-fluid"
+            title="Chrome Developer Tools"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster."
+          >
+            <img
+              class="tech-img"
+              src="./assets/images/vectors/chrome.svg"
+              alt="Node.js Link"
             />
             <div class="imgText"></div>
           </div>
@@ -435,8 +789,9 @@
           </a>
 
           <a
-            class="navbar-brand btn btn-social-icon btn-twitter justify-self-right"
-            href="#email-container"
+            class="navbar-brand btn btn-social-icon btn-twitter justify-content-center"
+            id="email-icon"
+            
             rel="noopener noreferrer"
             data-toggle="popover"
             data-container="body"
@@ -465,8 +820,8 @@
     </div>
 
     <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
     <script
