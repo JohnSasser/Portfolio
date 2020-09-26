@@ -6,7 +6,7 @@
     <meta property="og:image" content="./assets/images/linkedin-media.png" />
     <meta
       property="og:description"
-      content="Site for showcasing projects, sites and repositories for code developed over the last year. Site is maintained and updated intermittently. "
+      content="Site for showcasing projects, sites and repositories with code developed over the last year. Site is maintained and updated intermittently. "
     />
     <meta property="og:url" content="https://john-does-javascript.com/" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +23,15 @@
       crossorigin="anonymous"
     />
 
-    <!-- css animate -->
+    <!-- hoverAnimations for the portfolio images -->
+    <link
+      rel="stylesheet"
+      href="assets/css/hoverAnimation.css"
+      <!--
+      css
+      animate
+      --
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
@@ -104,7 +112,53 @@
 
       <div class="projectFlex">
         <!-- FILE FISH -->
-        <div class="project-link">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project-link">
+          <div
+            class="hovereffect"
+            title="Description"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="File Fish is designed to be connected with water perimeter sensors in an aquarium, delivering real-time data on health conditions for the species that live in the exhibit. The Application is fully scalable from personal (at home) aquariums, to exhibits you would find at the Georgia Aquarium.  Purpose driven to alleviate manual labor of Aquarium Water Technicians."
+          >
+            <div class="image-box">
+              <img
+                class="img-responsive portfolio-img"
+                src="./assets/images/portfolio-images/filefish_min.jpg"
+                alt="file-fish"
+              />
+            </div>
+            <div class="overlay">
+              <h2>File Fish</h2>
+              <a
+                class="info app"
+                href="https://file-fish.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  File Fish Application
+                </div>
+              </a>
+              <!-- <p>
+                  File Fish is designed to be connected with water perimeter sensors in an aquarium, delivering real-time data on health conditions for the species that live in the exhibit. The Application is fully scalable from personal (at home) aquariums, to exhibits you would find at the Georgia Aquarium.  Purpose driven to alleviate manual labor of Aquarium Water Technicians less arduous.
+                </p> -->
+              <a
+                class="info repo"
+                href="https://github.com/JohnSasser/fileFish"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  File Fish Repository
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-link">
           <a
             href="https://file-fish.herokuapp.com/"
             target="_blank"
@@ -138,10 +192,56 @@
               File Fish Repository
             </button>
           </a>
-        </div>
+        </div> -->
 
         <!-- CHIPPER -->
-        <div class="project-link">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project-link">
+          <div
+            class="hovereffect"
+            title="Description"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Designed to make lost-pet reunification easier, and eliminate unnecessary stressors on veterinary practices and humane societies."
+          >
+            <div class="image-box">
+              <img
+                class="img-responsive portfolio-img"
+                src="./assets/images/portfolio-images/chipper_min.jpg"
+                alt="Chipper link"
+              />
+            </div>
+            <div class="overlay">
+              <h2>Chipper</h2>
+              <a
+                class="info app"
+                href="https://file-fish.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Chipper Application
+                </div>
+              </a>
+              <!-- <p>
+                  File Fish is designed to be connected with water perimeter sensors in an aquarium, delivering real-time data on health conditions for the species that live in the exhibit. The Application is fully scalable from personal (at home) aquariums, to exhibits you would find at the Georgia Aquarium.  Purpose driven to alleviate manual labor of Aquarium Water Technicians less arduous.
+                </p> -->
+              <a
+                class="info repo"
+                href="https://github.com/JohnSasser/fileFish"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Chipper Repository
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-link">
           <a
             href="https://chipper2.herokuapp.com/"
             target="_blank"
@@ -175,10 +275,51 @@
               Chipper Repository
             </button>
           </a>
-        </div>
+        </div> -->
 
         <!-- WORKOUT TRACKER -->
-        <div class="project-link">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project-link">
+          <div
+            class="hovereffect"
+            title="Description"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="A simple exercise/training tracker to help stay on schedule with your workout progressions for your next triathlon, race or just weekly exercise."
+          >
+            <img
+              class="img-responsive portfolio-img"
+              src="./assets/images/portfolio-images/training_training_mi_BmD6P.jpg"
+              alt="Chipper link"
+            />
+            <div class="overlay">
+              <h2>Training Tracker</h2>
+              <a
+                class="info app"
+                href="https://workout-tracker-222000.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Training Tracker Application
+                </div>
+              </a>
+              <a
+                class="info repo"
+                href="https://github.com/JohnSasser/17-Training-Tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Training Tracker Repository
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-link">
           <a
             href="https://workout-tracker-222000.herokuapp.com/"
             target="_blank"
@@ -212,10 +353,52 @@
               Training Tracker Repository
             </button>
           </a>
-        </div>
+        </div> -->
 
         <!-- NOTE TAKER -->
-        <div class="project-link">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project-link">
+          <div
+            class="hovereffect"
+            title="Description"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="A note taking app, because every developer needs a note taking app."
+          >
+            <img
+              class="img-responsive portfolio-img"
+              src="./assets/images/portfolio-images/note_taker_min.jpg"
+              alt="Chipper link"
+            />
+            <div class="overlay">
+              <h2>Note Assistant</h2>
+              <a
+                class="info app"
+                href="https://obscure-garden-90006.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Note Assistant Application
+                </div>
+              </a>
+              <a
+                class="info repo"
+                href="https://github.com/JohnSasser/11-Note-Taker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Note Assistant Repository
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-link">
           <a
             href="https://obscure-garden-90006.herokuapp.com/"
             target="_blank"
@@ -249,10 +432,52 @@
               Note Taker Repository
             </button>
           </a>
-        </div>
+        </div> -->
 
         <!-- WEATHER DASHBOARD -->
-        <div class="project-link">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project-link">
+          <div
+            class="hovereffect"
+            title="Description"
+            data-toggle="popover"
+            data-container="body"
+            data-placement="top"
+            data-trigger="hover"
+            data-content="Weather forecasting application, using the open-weather-api to deliver world-wide, accurate 5-day weather forecasting."
+          >
+            <img
+              class="img-responsive portfolio-img"
+              src="./assets/images/portfolio-images/weather_dashboard_mi_ILuvz.jpg"
+              alt="Chipper link"
+            />
+            <div class="overlay">
+              <h2>Weather Dashboard</h2>
+              <a
+                class="info app"
+                href="https://johnsasser.github.io/06-WeatherDashboard/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Weather Dashboard Application
+                </div>
+              </a>
+              <a
+                class="info repo"
+                href="https://github.com/JohnSasser/06-WeatherDashboard"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div type="button" class="portfolio-btn">
+                  Weather Dashboard Repository
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-link">
           <a
             href="https://johnsasser.github.io/06-WeatherDashboard/"
             target="_blank"
@@ -286,7 +511,7 @@
               Weather App Repository
             </button>
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
 
