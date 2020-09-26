@@ -158,31 +158,33 @@ $('#last').textillate({
 var particles = Particles.init({
   selector: '.background',
   maxParticles: 80,
-  color: ['9c3795', '#39ff14', '#faed27'],
+  color: ['#9c3795', '#39ff14', '#faed27'],
   //   connectParticles: true,
-  maxParticleSize: .5,
+  maxParticleSize: 0.5,
   maxSpeed: 12,
-connectParticles: true,
+  connectParticles: true,
   // breakpoints for media/mobile;
   responsive: [
     {
       breakpoint: 768,
       options: {
         maxParticles: 200,
-        color: '#48F2E3',
-        connectParticles: false,
+        color: ['9c3795', '#39ff14', '#faed27'],
+        connectParticles: true,
       },
     },
     {
       breakpoint: 425,
       options: {
-        maxParticles: 100,
-        connectParticles: true,
+        maxParticles: 80,
+        color: '#48F2E3',
+        connectParticles: false,
       },
     },
     {
       breakpoint: 320,
       options: {
+        color: '#9c3795',
         maxParticles: 30,
       },
     },
@@ -199,8 +201,7 @@ window.onload = function () {
 //   selector: '.background',
 //   maxParticles: 400,
 //   color: '',
- 
-  
+
 // });
 
 // window.onload = function () {
@@ -208,4 +209,3 @@ window.onload = function () {
 //     selector: '.background',
 //   });
 // };
-
