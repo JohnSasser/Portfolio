@@ -328,6 +328,10 @@ textarea {
 		text-transform: uppercase;
 	}
 
+	.section-light {
+		padding: 20px;
+	}
+
 	.tech-title {
 		margin-bottom: 40px;
 	}
