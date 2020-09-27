@@ -65,9 +65,9 @@
 .hovereffect a.info {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    /* padding: 7px 14px; */
     text-transform: uppercase;
-    margin: 60px 0 0 0;
+    margin: 20px 0 0 0 ;
     width: 80%;
     /* background-color: transparent; */
     -webkit-transform: translateY(-200px);
@@ -77,6 +77,14 @@
     border: 1px solid #000;
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
+}
+
+.hovereffect a.app {
+    font-size: .75em;
+}
+
+.hovereffect a.repo {
+    font-size: .75rem;
 }
 
 .hovereffect a.app:hover {
@@ -114,6 +122,10 @@
 
     .hovereffect a.info {
         margin: 20px 0 0 0;
+    }
+
+    .hovereffect a.info {
+        padding: 0;
     }
 
     .hovereffect img {

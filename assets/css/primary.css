@@ -143,6 +143,7 @@ h1 {
 }
 
 .project-link {
+	margin: 20px 40px 20px 40px;
 	margin-bottom: 50px;
 	height: 100%;
 }
@@ -159,7 +160,7 @@ h1 {
 /* handling the portfolio image */
 .portfolio-img {
 	height: 100%;
-	width: 100%;
+	width: 100%; 
 	opacity: 0.9;
 	display: flex;
 	/* box-shadow: 10px 10px 20px rgba(70, 103, 119, 0.872); */
@@ -425,8 +426,8 @@ textarea {
 		margin: 100px 100px;
 	}
 
-	.portfolio-img {
+	/* .portfolio-img {
 		height: 500px;
 		width: 800px;
-	}
+	} */
 }
