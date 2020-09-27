@@ -195,13 +195,14 @@ button {
 	font-size: 80px;
 	line-height: 2em;
 	outline: #ffffff .5px;
+	width: 100%;
 }
 
 .secondary-title {
 	color: rgba(255, 255, 255, 0.498);
 	font-size: 60px;
 	line-height: 2em;
-
+	width: 100%;
 	/* -webkit-text-stroke: .4px black; */
 }
 
@@ -327,12 +328,20 @@ textarea {
 		text-transform: uppercase;
 	}
 
+	.tech-title {
+		margin-bottom: 40px;
+	}
+
+	.image-circle {
+		margin: 0 0 10px 0;
+	}
+
 	.tech-intro,
 	.tech-title {
 		color: white;
 		margin-top: 15px;
 		line-height: 1em;
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.secondary-title {
@@ -345,23 +354,60 @@ textarea {
 		font-size: 30px;
 	}
 
-	/* .portfolio-img {
-		width: 80vw
-	} */
+	.contactContainer {
+		margin-bottom: 0;
+	}
 
 	.email-header {
 		font-size: 25px;
 	}
 
+	.form-group textarea {
+		height: 160px;
+	}
+
 	#email-container {
-		margin-bottom: 80px;
+		margin-bottom: 90px;
+	}
+
+	#head-shot {
+		position: absolute;
+		top: 10%;
 	}
 
 	.text-div {
+		position: absolute;
+		top: 32%;
 		margin-bottom: 140px;
-		margin: 0 auto;
-		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		padding-top: 0;
+		justify-content: center;
+		align-items: center;
+		/* width: 100vw; */
 		background: none;
+	}
+
+	.arrows {
+		top: 60px;
+		display: flex;
+		/* display: block; */
+		justify-content: center;
+		/* margin: 0 auto; */
+	}
+
+	.technologies-arrow {
+		top: 60px;
+		flex: 0;
+		/* margin: 0 auto; */
+		max-width: 50%;
+	}
+
+	.projects-arrow {
+		top: 80px;
+		flex: 0;
+		/* margin: 0 auto; */
+		max-width: 50%;
 	}
 }
 
@@ -369,7 +415,7 @@ textarea {
 @media only screen and (min-width: 2474px) {
 	.project-link {
 		margin: 0 100px 0 100px;
-	} 
+	}
 
 	.project-link {
 		margin: 100px 100px;
