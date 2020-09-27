@@ -144,19 +144,25 @@ h1 {
 
 .project-link {
 	margin-bottom: 50px;
+	height: 100%;
 }
 
-.image-box :hover {
-	opacity: 1;
+.image-box {
+	height: 80%;
+	width: 100%;
 }
+
+/* .portfolio-btn :hover {
+
+} */
 
 /* handling the portfolio image */
 .portfolio-img {
-	height: 300px;
-	width: 450px;
+	height: 100%;
+	width: 100%;
 	opacity: 0.9;
 	display: flex;
-	box-shadow: 10px 10px 20px rgba(70, 103, 119, 0.872);
+	/* box-shadow: 10px 10px 20px rgba(70, 103, 119, 0.872); */
 }
 
 button {
@@ -189,13 +195,14 @@ button {
 	font-size: 80px;
 	line-height: 2em;
 	outline: #ffffff .5px;
+	width: 100%;
 }
 
 .secondary-title {
 	color: rgba(255, 255, 255, 0.498);
 	font-size: 60px;
 	line-height: 2em;
-
+	width: 100%;
 	/* -webkit-text-stroke: .4px black; */
 }
 
@@ -277,11 +284,35 @@ textarea {
 
 .btn-social-icon {
 	color: whitesmoke;
+	/* background-color: #9c3795; */
 }
 
 .icon-text {
 	font-size: 10px;
 }
+
+
+/* CANVAS ANIMATION CLASSES */
+
+.canvas-container {
+	/* max-width: 500px; */
+	margin: 0 auto;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0);
+	/* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); */
+}
+
+.background {
+	background-color: #877c7c00;
+	/* background-image: image('../metro-YOY.png'); */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
 
 /* MEDIA QUERY FOR MOBILE */
 @media only screen and (max-width: 767px) {
@@ -297,12 +328,24 @@ textarea {
 		text-transform: uppercase;
 	}
 
+	.section-light {
+		padding: 20px;
+	}
+
+	.tech-title {
+		margin-bottom: 40px;
+	}
+
+	.image-circle {
+		margin: 0 0 10px 0;
+	}
+
 	.tech-intro,
 	.tech-title {
 		color: white;
 		margin-top: 15px;
 		line-height: 1em;
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.secondary-title {
@@ -315,23 +358,60 @@ textarea {
 		font-size: 30px;
 	}
 
-	.portfolio-img {
-		width: 80vw
+	.contactContainer {
+		margin-bottom: 0;
 	}
 
 	.email-header {
 		font-size: 25px;
 	}
 
+	.form-group textarea {
+		height: 160px;
+	}
+
 	#email-container {
-		margin-bottom: 80px;
+		margin-bottom: 90px;
+	}
+
+	#head-shot {
+		position: absolute;
+		top: 10%;
 	}
 
 	.text-div {
+		position: absolute;
+		top: 32%;
 		margin-bottom: 140px;
-		margin: 0 auto;
-		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		padding-top: 0;
+		justify-content: center;
+		align-items: center;
+		/* width: 100vw; */
 		background: none;
+	}
+
+	.arrows {
+		top: 60px;
+		display: flex;
+		/* display: block; */
+		justify-content: center;
+		/* margin: 0 auto; */
+	}
+
+	.technologies-arrow {
+		top: 60px;
+		flex: 0;
+		/* margin: 0 auto; */
+		max-width: 50%;
+	}
+
+	.projects-arrow {
+		top: 80px;
+		flex: 0;
+		/* margin: 0 auto; */
+		max-width: 50%;
 	}
 }
 
