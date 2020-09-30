@@ -74,7 +74,7 @@ h1 {
 	/* justify-content: center; */
 	align-items: center;
 	transition: 3s;
-	top: 100px;
+	top: 10vh;
 	color: #ffffff;
 	text-shadow: 1.5px 1.5px rgb(83, 83, 83);
 }
@@ -318,6 +318,11 @@ textarea {
 
 /* MEDIA QUERY FOR MOBILE */
 @media only screen and (max-width: 767px) {
+
+	.img1-container {
+		top: 0;
+	}
+
 	.web-dev {
 		display: flex;
 		font-size: 40px;
