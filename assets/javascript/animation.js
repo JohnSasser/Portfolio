@@ -196,16 +196,3 @@ window.onload = function () {
     selector: '.background',
   });
 };
-
-// var particles = Particles.init({
-//   selector: '.background',
-//   maxParticles: 400,
-//   color: '',
-
-// });
-
-// window.onload = function () {
-//   particles.init({
-//     selector: '.background',
-//   });
-// };
