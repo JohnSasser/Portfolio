@@ -155,10 +155,12 @@ $('#last').textillate({
   },
 });
 
-var particles = Particles.init({
+// Particle.js
+// PROJECTS CONTAINER
+const technologyParticles = Particles.init({
   selector: '.background',
   maxParticles: 80,
-  color: ['#9c3795', '#39ff14', '#faed27'],
+  color: ['#DA14FF', '#39ff14', '#FF6514', '#14AEFF'],
   //   connectParticles: true,
   maxParticleSize: 0.5,
   maxSpeed: 12,
@@ -169,7 +171,7 @@ var particles = Particles.init({
       breakpoint: 768,
       options: {
         maxParticles: 200,
-        color: ['9c3795', '#39ff14', '#faed27'],
+        color: ['#DA14FF', '#39ff14', '#FF6514', '#14AEFF'],
         connectParticles: true,
       },
     },
@@ -191,8 +193,48 @@ var particles = Particles.init({
   ],
 });
 
+// TECH CONTAINER
+// const profileParticles = Particles.init({
+//   selector: '.project-canvas',
+//   maxParticles: 80,
+//   color: ['#DA14FF', '#39ff14', '#FF6514', '#14AEFF'],
+//   //   connectParticles: true,
+//   maxParticleSize: 0.5,
+//   maxSpeed: 12,
+//   connectParticles: true,
+//   // breakpoints for media/mobile;
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       options: {
+//         maxParticles: 200,
+//         color: ['#DA14FF', '#39ff14', '#FF6514', '#14AEFF'],
+//         connectParticles: true,
+//       },
+//     },
+//     {
+//       breakpoint: 425,
+//       options: {
+//         maxParticles: 80,
+//         color: '#48F2E3',
+//         connectParticles: false,
+//       },
+//     },
+//     {
+//       breakpoint: 320,
+//       options: {
+//         color: '#9c3795',
+//         maxParticles: 30,
+//       },
+//     },
+//   ],
+// });
+
 window.onload = function () {
-  particles.init({
+  technologyParticles.init({
     selector: '.background',
   });
+  // profileParticles.init({
+  //   selector: '#project-canvas',
+  // });
 };

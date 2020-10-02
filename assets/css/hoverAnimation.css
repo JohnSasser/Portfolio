@@ -39,12 +39,12 @@
 
 .hovereffect h2 {
     text-transform: uppercase;
-    color: #fff;
+    color: #D84127;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 30px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
+    background: #5842DD;
     -webkit-transform: translateY(-200px);
     -ms-transform: translateY(-200px);
     transform: translateY(-200px);
@@ -89,11 +89,11 @@
 
 .hovereffect a.app:hover {
     /* width: 100%; */
-    background-color: rgba(108, 144, 254, 0.751);
+    background-color: #27d842a4;
 }
 
 .hovereffect a.repo:hover {
-    background-color: rgba(84, 166, 83, 0.751);
+    background-color: #14adffa2;
 }
 
 .hovereffect a.info:hover {

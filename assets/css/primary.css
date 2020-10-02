@@ -48,10 +48,10 @@ h1 {
 }
 
 .parallax-img2 {
-	background-image: url(../images/moab-road-min.jpg);
-	background-color: rgba(251, 215, 196, 0.477);
+	/* background-image: url(../images/moab-road-min.jpg); */
+	background: linear-gradient(#15152E, #2E2E15);
 	background-blend-mode: overlay;
-	min-height: 85%;
+	min-height: 102%;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -60,7 +60,7 @@ h1 {
 
 .parallax-img3 {
 	background-image: url(../images/greenland-aurora-min.jpg);
-	min-height: 85%;
+	min-height: 102%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -73,10 +73,48 @@ h1 {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
-	transition: 3s;
+	/* transition: 3s; */
 	top: 10vh;
-	color: #ffffff;
+	/* color: #ffffff; */
 	text-shadow: 1.5px 1.5px rgb(83, 83, 83);
+}
+
+ .technologies-arrow div :hover { 
+	/* display: block; */
+	/* width: 40px; */
+	/* height: 80px; */
+	/* overflow-y: visible; */
+	z-index: 9999;
+	animation: bounce 1.5s;
+ } 
+
+.bounce {
+	z-index: 999999;
+	animation: bounce 1.25s;
+}
+
+/* pretty sure vanta.js prevents all :hover effects; */
+/* .bounce :hover {
+	animation: bounce 1.25s;
+} */
+
+@keyframes bounce {
+
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+	}
+
+	60% {
+		transform: translateY(-12px);
+	}
 }
 
 /* headshot img */
@@ -90,15 +128,39 @@ h1 {
 .web-dev {
 	font-size: 60px;
 	text-transform: uppercase;
+	color: #5842DD;
 }
 
 
+/* intro name text */
+.john-sass {
+	width: 100vw;
+	position: relative;
+	font-size: 65px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #27D841;
+}
 
 .arrows {
 	display: inline-flex;
 	flex-wrap: wrap;
 	width: 100%;
+	color: #D84127;
 	/* display: block; */
+}
+
+#tech-arrow,
+#project-arrow {
+	z-index: 999999;
+	color: #14AEFF;
+}
+
+
+.fa,
+.btn-social-icon i,
+.btn-social-icon .fas {
+	color: #D84127;
 }
 
 .first-row,
@@ -116,15 +178,6 @@ h1 {
 	padding-top: 35px;
 }
 
-/* intro name text */
-.john-sass {
-	width: 100vw;
-	position: relative;
-	font-size: 65px;
-	margin-top: 20px;
-	text-transform: uppercase;
-	color: rgb(201, 179, 36);
-}
 
 /* SECOND PARALLAX CONTAINER */
 .projectFlex {
@@ -137,6 +190,7 @@ h1 {
 .para2-text {
 	font-size: 100px;
 	line-height: 2em;
+	color: #14AEFF;
 }
 
 .projectFlex {
@@ -154,10 +208,6 @@ h1 {
 	width: 100%;
 }
 
-/* .portfolio-btn :hover {
-
-} */
-
 /* handling the portfolio image */
 .portfolio-img {
 	height: 100%;
@@ -172,40 +222,42 @@ button {
 	box-shadow: 0 0 1px rgba(22, 22, 22, 0.872);
 }
 
-/* icon buttons color */
-
-/* .navbar-brand a {
-	color: rgba(245, 222, 179, 0.71);
-} */
-
-.fa,
-.btn-social-icon .fas {
-	color: white;
-}
-
 /* THIRD PARALLAX CONTAINER */
 .tech-container {
 	display: flex;
 	flex-wrap: wrap;
-	color: white;
+	/* color: white; */
 	justify-content: space-around;
 }
 
 /* 3rd parallax intro text */
 .tech-title {
-	color: white;
+	color: #c8bff8be;
 	font-size: 80px;
 	line-height: 2em;
-	outline: #ffffff .5px;
+	outline: #f8f7ffbe 1px;
 	width: 100%;
 }
 
 .secondary-title {
-	color: rgba(255, 255, 255, 0.498);
+	/* color: rgba(255, 255, 255, 0.498); */
 	font-size: 60px;
 	line-height: 2em;
 	width: 100%;
 	/* -webkit-text-stroke: .4px black; */
+}
+
+
+#title-front-end {
+	color: #14AEFF;
+}
+
+#title-back-end {
+	color: #27D841;
+}
+
+#title-tools {
+	color: #D84127;
 }
 
 .parallax-img3 {
@@ -256,11 +308,13 @@ button {
 
 /* EMAIL CONTAINER */
 .contactContainer {
-	margin-bottom: 80px;
+	height: 100vh;
+	/* margin-bottom: 80px; */
 	margin-top: 0;
 }
 
 .email-header {
+	padding-top: 4vh;
 	line-height: 2em;
 }
 
@@ -430,6 +484,11 @@ textarea {
 
 	.project-link {
 		margin: 100px 100px;
+	}
+
+
+	.img1-container {
+		top: 40vh;
 	}
 
 	/* .portfolio-img {
