@@ -121,10 +121,7 @@
 @media screen and (max-width: 616px) {
 
     .hovereffect a.info {
-        margin: 20px 0 0 0;
-    }
-
-    .hovereffect a.info {
+        margin: 5px 0 0 0;
         padding: 0;
     }
 
@@ -132,5 +129,6 @@
         display: block;
         position: relative;
         margin: 0 auto;
+        height: 150px;
     }
 }

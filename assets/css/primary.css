@@ -408,6 +408,14 @@ textarea {
 		font-size: 30px;
 	}
 
+	.canvas-container {
+		padding: 10px;
+	}
+
+	.tech-container {
+		width: 100vw;
+		padding: 0;
+	}
 	.secondary-title {
 		line-height: 1em;
 		font-size: 28px;
