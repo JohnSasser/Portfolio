@@ -309,7 +309,6 @@ button {
 /* EMAIL CONTAINER */
 .contactContainer {
 	height: 100vh;
-	/* margin-bottom: 80px; */
 	margin-top: 0;
 }
 
@@ -337,11 +336,11 @@ textarea {
 	justify-content: center;
 	background-color: rgba(32, 32, 32, 0.649);
 }
-
+/* 
 .btn-social-icon {
 	color: whitesmoke;
-	/* background-color: #9c3795; */
-}
+	background-color: #9c3795; 
+} */
 
 .icon-text {
 	font-size: 10px;
