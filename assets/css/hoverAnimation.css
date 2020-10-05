@@ -123,6 +123,7 @@
     .hovereffect a.info {
         margin: 5px 0 0 0;
         padding: 0;
+        border: none;
     }
 
     .hovereffect img {
