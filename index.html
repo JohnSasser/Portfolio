@@ -27,7 +27,6 @@
     <link
       rel="stylesheet"
       href="assets/css/hoverAnimation.css"
-      <!--
       css
       animate
       --
@@ -72,29 +71,32 @@
           <!-- scrollTo buttons -->
           <div class="arrows">
             <div class="col-4 technologies-arrow">
-              <button
+              <div
                 id="tech-arrow"
-                class="navbar-brand btn btn-social-icon btn-twitter"
-                rel="noopener noreferrer"
+                class="navbar-brand btn btn-social-icon btn-twitter bounce"
+                href="#tech-parallax"
               >
-                <i class="fas fa-arrow-circle-down fa-lg"></i> Technologies
-              </button>
+                <i class="fas fa-arrow-circle-down fa-lg bounce"></i>
+                Technologies
+              </div>
             </div>
             <div class="col-4"></div>
             <div class="col-4 projects-arrow">
-              <button
+              <div
                 id="project-arrow"
-                class="navbar-brand btn btn-social-icon btn-twitter"
+                class="navbar-brand btn btn-social-icon btn-twitter bounce"
                 href="#project-container"
-                rel="noopener noreferrer"
               >
-                Projects/Apps <i class="fas fa-arrow-circle-down fa-lg"></i>
-              </button>
+                Projects/Apps
+                <i class="fas fa-arrow-circle-down fa-lg bounce"></i>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- ABOUT SECTION -->
 
     <section class="section section-light container">
       <br />
@@ -108,6 +110,7 @@
     <!-- 2nd PARALLAX -->
 
     <div class="parallax-img2" id="project-container">
+      <!-- <canvas class="background"></canvas> -->
       <h2 class="projects-header para2-text">Projects</h2>
 
       <div class="projectFlex">
@@ -169,7 +172,7 @@
               <h2>Chipper</h2>
               <a
                 class="info app"
-                href="https://file-fish.herokuapp.com/"
+                href="https://chippers-pets.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -177,7 +180,7 @@
               </a>
               <a
                 class="info repo"
-                href="https://github.com/JohnSasser/fileFish"
+                href="https://github.com/JohnSasser/chipper"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -307,7 +310,7 @@
 
     <!-- 3rd PARALLAX -->
 
-    <div class="parallax-img3 canvas-container">
+    <div class="parallax-img3 canvas-container" id="tech-parallax">
       <canvas class="background"></canvas>
       <div class="container col-md-12 row-container" id="tech-container">
         <h2 class="tech-title col">TECHNOLOGIES</h2>
@@ -315,7 +318,7 @@
 
       <div class="tech-container col-md-6">
         <div class="row-container col-md-12">
-          <h4 class="secondary-title">FRONT END</h4>
+          <h4 id="title-front-end" class="secondary-title">FRONT END</h4>
         </div>
         <!-- HTML -->
         <a href="https://html.com/" target="_blank" rel="noopener noreferrer">
@@ -456,7 +459,7 @@
 
       <div class="tech-container col-md-6">
         <div class="row-container">
-          <h4 class="secondary-title">BACK END</h4>
+          <h4 id="title-back-end" class="secondary-title">BACK END</h4>
         </div>
         <!-- NODE.JS -->
         <a
@@ -604,7 +607,7 @@
       </div>
 
       <div class="row-container">
-        <h4 class="secondary-title">TOOLS</h4>
+        <h4 id="title-tools" class="secondary-title">TOOLS</h4>
       </div>
 
       <div class="tech-container" id="last-tech-container">
