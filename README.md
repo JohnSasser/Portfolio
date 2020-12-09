@@ -1,6 +1,6 @@
 # Portfolio
 
-This site is used to display some of the technologies that i have practiced with wile at Ga Tech. I have current and live projects listed and an email link utilizing formspree.
+This site is used to display some of the technologies that i have practiced with while at Ga Tech. I have current and live projects listed and an email link utilizing formspree.
 
 _Visit the live site_ [Portfolio](https://johnsasser.github.io/Portfolio/)
 
