@@ -118,6 +118,10 @@
     transition-delay: 0.3s;
 }
 
+.portfolio-btn-disabled :hover {
+    cursor: no-drop;
+}
+
 @media screen and (max-width: 616px) {
 
     .hovereffect a.info {
